@@ -1,4 +1,4 @@
-package task1_S1_05_JavaUtils_Level1;
+package task1and2_S1_05_JavaUtils_Level1;
 
 import java.io.File;
 
@@ -16,13 +16,8 @@ public class MainListDirectory {
             System.out.println("The given path is not a valid directory.");
             return;
         }
-        String[] contentDirectory = DirectoryLister.listSortedContent(directory);
 
-        if (contentDirectory == null || contentDirectory.length == 0) {
-            System.out.println("The directory is empty");
-            return;
-        }
-        DirectoryPrinter.print(contentDirectory);
+        DirectoryLister.listSortedContent(directory, 0);
     }
 }
 
