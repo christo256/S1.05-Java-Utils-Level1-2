@@ -27,3 +27,17 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+# Ignorar carpeta de configuración de IntelliJ IDEA
+.idea/
+
+# Ignorar carpeta de tests
+testDirectoryList/
+
+# Ignorar archivo de salida
+output.txt
+
+# Ignorar archivos de configuración del sistema
+desktop.ini
+
+# Ignorar cualquier archivo gitignore adicional
+.gitignore
