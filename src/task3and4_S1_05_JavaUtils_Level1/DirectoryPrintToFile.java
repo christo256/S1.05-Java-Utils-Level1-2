@@ -1,4 +1,4 @@
-package task3_S1_05_JavaUtils_Level1;
+package task3and4_S1_05_JavaUtils_Level1;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -13,7 +13,6 @@ public class DirectoryPrintToFile {
             DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
                     .withZone(ZoneId.systemDefault());
 
-
     public static void print(File file, int level) {
 
         String indent = "  ".repeat(level);
@@ -23,6 +22,7 @@ public class DirectoryPrintToFile {
         System.out.println(indent + file.getName() + " " + type + " - Last Modified: " + lastModified);
 
     }
+
     public static void printToFile(File file, int level, FileWriter writer) throws IOException {
         String indent = "  ".repeat(level);
         String type = file.isDirectory() ? "(D)" : "(F)";
