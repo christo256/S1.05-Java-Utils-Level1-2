@@ -162,5 +162,5 @@ NOTES & BEST PRACTICES
     Open your terminal or command line and execute:
     ```bash
     git clone https://github.com/christo256/S1.04---Testing---Level-1-2--
-    cd S1.04---Testing---Level-1-2--
     ```
+    `cd S1.04---Testing---Level-1-2--`
