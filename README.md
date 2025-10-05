@@ -17,7 +17,7 @@ TECHNOLOGIES USED
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📂 Project structure
 
 ```text
 src/
