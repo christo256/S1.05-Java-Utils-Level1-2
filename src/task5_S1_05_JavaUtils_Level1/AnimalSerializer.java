@@ -3,15 +3,24 @@ package task5_S1_05_JavaUtils_Level1;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.io.OutputStream;
+
 
 public class AnimalSerializer {
-    public static void serializerAnimal( Animal animal, String filename) {
+    public static void serializerAnimal(Animal animal, String filename) {
 
-        try (ObjectOutputStream out = new OutputStream(new FileOutputStream(filename))) {
+        try {
+            FileOutputStream fileOut = new FileOutputStream(filename);
+            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+
             out.writeObject(animal);
 
-            }
+            out.close();
+            fileOut.close();
+
+            System.out.println("Animal saved in: " + filename);
+
+        } catch (IOException error) {
+            error.printStackTrace();
         }
     }
 }
