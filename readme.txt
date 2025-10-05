@@ -60,10 +60,12 @@ List alphabetically the content of a directory received as parameter.
 📦 **Package:** `task2_S1_05_JavaUtils_Level1`
 
 ➡️ Compile:
-> javac -d out src/task2_S1_05_JavaUtils_Level1/MainListDirectory.java
+```bash
+javac -d out src/task2_S1_05_JavaUtils_Level1/MainListDirectory.java
 
 ➡️ Execute:
-> java -cp out task2_S1_05_JavaUtils_Level1.MainListDirectory ./testFolder
+ ```bash
+java -cp out task2_S1_05_JavaUtils_Level1.MainListDirectory ./testFolder
 
 ---
 
@@ -76,10 +78,12 @@ Recursively list a directory tree. Show elements alphabetically inside each leve
 🧠 **Main class:** `MainListDirectory.java` (same, extended functionality)
 
 ➡️ Compile:
-> javac -d out src/task2_S1_05_JavaUtils_Level1/MainListDirectory.java
+```bash
+javac -d out src/task2_S1_05_JavaUtils_Level1/MainListDirectory.java
 
 ➡️ Execute:
-> java -cp out task2_S1_05_JavaUtils_Level1.MainListDirectory ./testFolder
+```bash
+java -cp out task2_S1_05_JavaUtils_Level1.MainListDirectory ./testFolder
 
 ---
 
@@ -92,10 +96,12 @@ Save the recursive directory listing into a TXT file instead of printing it.
 📦 **Package:** `task3and4_S1_05_JavaUtils_Level1`
 
 ➡️ Compile:
-> javac -d out src/task3and4_S1_05_JavaUtils_Level1/MainListDirectoryToFile.java
+```bash
+javac -d out src/task3and4_S1_05_JavaUtils_Level1/MainListDirectoryToFile.java
 
 ➡️ Execute:
-> java -cp out task3and4_S1_05_JavaUtils_Level1.MainListDirectoryToFile ./testFolder output.txt
+```bash
+java -cp out task3and4_S1_05_JavaUtils_Level1.MainListDirectoryToFile ./testFolder output.txt
 
 ---
 ## LEVEL 1 - EXERCISE 4  
@@ -107,10 +113,12 @@ Read any TXT file and display its content on the console.
 📦 **Package:** `task3and4_S1_05_JavaUtils_Level1`
 
 ➡️ Compile:
-> javac -d out src/task3and4_S1_05_JavaUtils_Level1/TextFileReader.java
+```bash
+javac -d out src/task3and4_S1_05_JavaUtils_Level1/TextFileReader.java
 
 ➡️ Execute:
-> java -cp out task3and4_S1_05_JavaUtils_Level1.TextFileReader output.txt
+```bash
+java -cp out task3and4_S1_05_JavaUtils_Level1.TextFileReader output.txt
 
 ---
 LEVEL 1 - EXERCISE 5  
@@ -122,7 +130,8 @@ Serialize a Java object into a `.ser` file, then deserialize it and display the 
 📦 **Package:** `task5_S1_05_JavaUtils_Level1`
 
 ➡️ Compile:
-> javac -d out src/task5_S1_05_JavaUtils_Level1/MainAnimal.java
+```bash
+javac -d out src/task5_S1_05_JavaUtils_Level1/MainAnimal.java
 
 ➡️ Execute:
 ```bash
@@ -138,10 +147,12 @@ Run the functionality from Level 1 - Exercise 3, but parameterized through a con
 📦 **Package:** `task1_S1_05_JavaUtils_Level2`
 
 ➡️ Compile:
-> javac -d out src/task1_S1_05_JavaUtils_Level2/MainDirectoryToFile.java
+```bash
+javac -d out src/task1_S1_05_JavaUtils_Level2/MainDirectoryToFile.java
 
 ➡️ Execute:
-> java -cp out task1_S1_05_JavaUtils_Level2.MainDirectoryToFile
+```bash
+java -cp out task1_S1_05_JavaUtils_Level2.MainDirectoryToFile
 
 Make sure your `config.properties` file is in the project root and contains the required parameters (e.g., input directory, output file name).
 
