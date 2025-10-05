@@ -125,7 +125,8 @@ Serialize a Java object into a `.ser` file, then deserialize it and display the 
 > javac -d out src/task5_S1_05_JavaUtils_Level1/MainAnimal.java
 
 ➡️ Execute:
-> java -cp out task5_S1_05_JavaUtils_Level1.MainAnimal
+```bash
+java -cp out task5_S1_05_JavaUtils_Level1.MainAnimal
 
 ---
 ## LEVEL 2 - EXERCISE 1  
