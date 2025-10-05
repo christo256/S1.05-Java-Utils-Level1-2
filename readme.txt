@@ -1,5 +1,5 @@
 ===============================================
-#S1.05 Java Utils - Level 1 & Level 2 Exercises
+## S1.05 Java Utils - Level 1 & Level 2 Exercises
 ===============================================
 
 All exercises in this project must be compiled and executed from the command line, not only from the IDE.  
@@ -47,9 +47,9 @@ src/
     ├── subTestFolder2/
     └── subTestFolder3/
 
------------------------------------------------
+---
 ## LEVEL 1 - EXERCISE 1  
------------------------------------------------
+---
 📌 **Description:**  
 List alphabetically the content of a directory received as parameter.
 
@@ -62,9 +62,9 @@ List alphabetically the content of a directory received as parameter.
 ➡️ Execute:
 > java -cp out task2_S1_05_JavaUtils_Level1.MainListDirectory ./testFolder
 
------------------------------------------------
+---
 ## LEVEL 1 - EXERCISE 2  
------------------------------------------------
+---
 📌 **Description:**  
 Recursively list a directory tree. Show elements alphabetically inside each level, indicate if it is a Directory (D) or File (F), and print last modification date.
 
@@ -76,9 +76,9 @@ Recursively list a directory tree. Show elements alphabetically inside each leve
 ➡️ Execute:
 > java -cp out task2_S1_05_JavaUtils_Level1.MainListDirectory ./testFolder
 
------------------------------------------------
+---
 ## LEVEL 1 - EXERCISE 3  
------------------------------------------------
+---
 📌 **Description:**  
 Save the recursive directory listing into a TXT file instead of printing it.
 
@@ -91,9 +91,9 @@ Save the recursive directory listing into a TXT file instead of printing it.
 ➡️ Execute:
 > java -cp out task3and4_S1_05_JavaUtils_Level1.MainListDirectoryToFile ./testFolder output.txt
 
------------------------------------------------
+---
 ## LEVEL 1 - EXERCISE 4  
------------------------------------------------
+---
 📌 **Description:**  
 Read any TXT file and display its content on the console.
 
@@ -106,9 +106,9 @@ Read any TXT file and display its content on the console.
 ➡️ Execute:
 > java -cp out task3and4_S1_05_JavaUtils_Level1.TextFileReader output.txt
 
------------------------------------------------
+---
 LEVEL 1 - EXERCISE 5  
------------------------------------------------
+---
 📌 **Description:**  
 Serialize a Java object into a `.ser` file, then deserialize it and display the result.
 
@@ -121,9 +121,9 @@ Serialize a Java object into a `.ser` file, then deserialize it and display the 
 ➡️ Execute:
 > java -cp out task5_S1_05_JavaUtils_Level1.MainAnimal
 
------------------------------------------------
+---
 ## LEVEL 2 - EXERCISE 1  
------------------------------------------------
+---
 📌 **Description:**  
 Run the functionality from Level 1 - Exercise 3, but parameterized through a configuration file (`config.properties`) using Java Properties or Apache Commons Configuration.
 
@@ -138,9 +138,9 @@ Run the functionality from Level 1 - Exercise 3, but parameterized through a con
 
 Make sure your `config.properties` file is in the project root and contains the required parameters (e.g., input directory, output file name).
 
------------------------------------------------
+---
 NOTES & BEST PRACTICES
------------------------------------------------
+---
 - Use **File.separator** in code to build file paths for cross-platform compatibility.
 - Avoid absolute paths. Use relative paths like `./src`, `./out`, `./testFolder`.
 - Include a `.gitignore` file to avoid uploading `out/`, `.idea/`, `.class` files, etc.
@@ -149,13 +149,11 @@ NOTES & BEST PRACTICES
 
 ## 🚀 How to Compile and Run (Installation)
 
-1. **Clone the Repository:**  
-   Open your terminal or command line and execute:
-
-   ```bash
-   git clone https://github.com/christo256/S1.05-Java-Utils-Level1-2
-   cd S1.05-Java-Utils-Level1-2
-   ```
+1.  **Clone the Repository:**
+    Open your terminal or command line and execute:
+    ```bash
+    git clone https://github.com/christo256/S1.05-Java-Utils-Level1-2
+    ```
 
 
 
