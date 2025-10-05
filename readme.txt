@@ -1,23 +1,24 @@
-===============================================
-## S1.05 Java Utils - Level 1 & Level 2 Exercises
-===============================================
+# 📚 S1.05-Java-Utils-Level1-2
 
 All exercises in this project must be compiled and executed from the command line, not only from the IDE.  
 This document explains how to compile and execute each exercise **class by class**, using **relative paths** for portability.  
 
 Project developed in Java, following clean code and Git best practices.
 
------------------------------------------------
+---
+
 TECHNOLOGIES USED
------------------------------------------------
+---
+
 - Java 17+
 - IntelliJ IDEA
 - Standard Java IO / NIO
 - (Optional) Apache Commons Configuration for Level 2 Exercise 1
 
------------------------------------------------
+---
+
 PROJECT STRUCTURE
------------------------------------------------
+---
 src/
 ├── task1_S1_05_JavaUtils_Level2
 │   └── MainDirectoryToFile.java
@@ -48,8 +49,10 @@ src/
     └── subTestFolder3/
 
 ---
+
 ## LEVEL 1 - EXERCISE 1  
 ---
+
 📌 **Description:**  
 List alphabetically the content of a directory received as parameter.
 
@@ -63,8 +66,10 @@ List alphabetically the content of a directory received as parameter.
 > java -cp out task2_S1_05_JavaUtils_Level1.MainListDirectory ./testFolder
 
 ---
+
 ## LEVEL 1 - EXERCISE 2  
 ---
+
 📌 **Description:**  
 Recursively list a directory tree. Show elements alphabetically inside each level, indicate if it is a Directory (D) or File (F), and print last modification date.
 
@@ -77,6 +82,7 @@ Recursively list a directory tree. Show elements alphabetically inside each leve
 > java -cp out task2_S1_05_JavaUtils_Level1.MainListDirectory ./testFolder
 
 ---
+
 ## LEVEL 1 - EXERCISE 3  
 ---
 📌 **Description:**  
@@ -147,14 +153,12 @@ NOTES & BEST PRACTICES
 - Commit with clear messages and keep the repository clean.
 - Do not upload commented-out code.
 
-## 🚀 How to Compile and Run (Installation)
-
 1.  **Clone the Repository:**
     Open your terminal or command line and execute:
     ```bash
-    git clone https://github.com/christo256/S1.05-Java-Utils-Level1-2
+    git clone https://github.com/christo256/S1.04---Testing---Level-1-2--
+    cd S1.04---Testing---Level-1-2--
     ```
-
 
 
 
