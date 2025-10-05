@@ -17,37 +17,30 @@ TECHNOLOGIES USED
 
 ---
 
-PROJECT STRUCTURE
----
-src/
-├── task1_S1_05_JavaUtils_Level2
-│   └── MainDirectoryToFile.java
-│   └── ConfigReader.java
-│
-├── task2_S1_05_JavaUtils_Level1
-│   └── MainListDirectory.java
-│   └── DirectoryLister.java
-│   └── DirectoryPrinter.java
-│   └── DirectoryValidator.java
-│
-├── task3and4_S1_05_JavaUtils_Level1
-│   └── MainListDirectoryToFile.java
-│   └── DirectoryListerToFile.java
-│   └── DirectoryPrintToFile.java
-│   └── DirectoryValidator2.java
-│   └── TextFileReader.java
-│
-├── task5_S1_05_JavaUtils_Level1
-│   └── MainAnimal.java
-│   └── Animal.java
-│   └── AnimalSerializer.java
-│   └── AnimalDeserializer.java
-│
-└── testFolder/
-    ├── subTestFolder1/
-    ├── subTestFolder2/
-    └── subTestFolder3/
+## 📂 Estructura del Proyecto
 
+```text
+src/
+├── task1_S1_05_JavaUtils_Level2/
+│   ├── MainDirectoryToFile.java
+│   ├── ConfigReader.java
+├── task2_S1_05_JavaUtils_Level1/
+│   ├── MainListDirectory.java
+│   ├── DirectoryLister.java
+│   ├── DirectoryPrinter.java
+│   ├── DirectoryValidator.java
+├── task3and4_S1_05_JavaUtils_Level1/
+│   ├── MainListDirectoryToFile.java
+│   ├── DirectoryListerToFile.java
+│   ├── DirectoryPrintToFile.java
+│   ├── DirectoryValidator2.java
+│   ├── TextFileReader.java
+├── task5_S1_05_JavaUtils_Level1/
+│   ├── MainAnimal.java
+│   ├── Animal.java
+│   ├── AnimalSerializer.java
+│   └── AnimalDeserializer.java
+```
 ---
 
 ## LEVEL 1 - EXERCISE 1  
