@@ -7,6 +7,11 @@ import java.util.Arrays;
 
 public class DirectoryListerToFile {
     public static void listSortedContentToFile(File directory, int level, FileWriter writer) throws IOException {
+
+        if (level == 0) {
+            DirectoryPrintToFile.printToFile(directory, level, writer);
+        }
+
         File[] files = directory.listFiles();
         if (files == null || files.length == 0) {
             return;
