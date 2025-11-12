@@ -14,6 +14,7 @@ public class Animal implements Serializable {
     public Animal(String name, String species) {
         this.name = name;
         this.species = species;
+
     }
 
     public String getName() {
@@ -27,7 +28,7 @@ public class Animal implements Serializable {
     @Override
     public String toString() {
         return "Animal:" +
-                "name = '" + name + '\'' +
+                "name:........... = '" + name + '\'' +
                 ", species = '" + species + '\'' +
                 '}';
     }
